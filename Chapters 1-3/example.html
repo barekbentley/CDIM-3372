@@ -5,7 +5,7 @@
         h1{
             color:rgb(29, 29, 104); font-size:25px;
             margin-bottom: 10px;
-        }
+         }
         .nav {
             margin-top: 10px;
             list-style: none;
@@ -22,20 +22,24 @@
             text-decoration: none;
         }
 
-        a.feature {
+        .nav .feature {
             background-color: orange;
         }
     </style>
 </head>
 <body>
     <header id="page-header">
+        <!-- <p style="color: blue;">This is an inline style Example</p> -->
         <h1 id="page-title" >Wombat Coffee Roasters</h1>
         <nav>
             <ul id="main-nav" class ="nav">
+                <!-- <ul id="main-nav"></ul> -->
                 <li><a href="/" >Home</a></li>
                 <li><a href="/coffees">Coffees</a></li>
                 <li><a href="/brewers">Brewers</a></li>
                 <li><a href="/Specials" class="feature">Specials</a></li>   
+                <!-- <li><a href="/Specials">Specials</a></li> -->
+                <!-- <p class="feature">Content</p> -->
             </ul>
         </nav>
 </header>
